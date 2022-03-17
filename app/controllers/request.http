@@ -1,0 +1,15 @@
+
+### person Create
+POST http://localhost:3000/person
+Content-Type: application/json
+
+{
+  "first_name": "sam",
+  "last_name": "cristian",
+  "email": "test2.gmail.com"
+  
+}
+
+### show
+GET http://localhost:3000/person/1
+Content-Type: application/json
